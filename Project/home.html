@@ -1,26 +1,56 @@
 <!DOCTYPE html>
+<meta charset="utf-8"> 
 <html>
 <head>
 	<title>Home</title>
 </head>
 <body>
-<!-- A div spave for logo image -->
-<div class="logo">
-<img src="/images/logo.png" alt="logo" style="width:100px; height:100px"></div>
+<header>
+	<!-- A div spave for logo image -->
+	<div class="header" id="logo">
+		<img src="images/logo.png" alt="logo" style="width:100px; height:100px">
+	</div>
+	<div class="header" id="title">
+		<h1>Kathy Han</h1>
+		<p>Coding, Design, Games and Hardware Projects</p>
+	</div>
+</header>
+
 <!-- A horizontal menu bar with 6 tags-->
-<ul>
-	<li><a href="home.html">Home</a></li>
-	<li><a href="about-me.html">About Me</a></li>
-	<li><a href="web-dev-projects.html">Web Dev Projects</a></li>
-	<li><a href="design-projects.html">Design Projects</a></li>
-	<li><a href="blog.html">Blog</a></li>
-	<li><a href="contact-me.html">Contact Info</a></li>
-</ul>
-<!-- div for animated image -->
-<div class="self-animation">
-<img src="/images/animated_kh.jpg" alt="self-animation" style="width:130px; height=220px">
-<!-- Some simple introduction text -->
-<h2>Hi, I'm Kathy!</h2>
+<div class="navigation">
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="about-me.html">About Me</a></li>
+		<li><a href="web-dev-projects.html">Web Dev Projects</a></li>
+		<li><a href="design-projects.html">Design Projects</a></li>
+		<li><a href="contact-me.html">Contact Info</a></li>
+	</ul>
 </div>
+<!-- div for animated image -->
+<div class="introduction">
+	<div id="self-image">
+		<img src="images/animated_kh.png" alt="self-animation" style="width:130px; height=220px">
+	</div>
+<!-- Some simple introduction text -->
+	<div id="intro_text">
+		<h2>Hi, I'm Kathy!</h2>
+		<p>I am a graduating Engineering major student interested in Web Development, Web Design and Video Game Development
+		</p>
+		<p>
+        I will keep posting any projects I developed or got involved in and commenting on technical topics I feel interested in
+        </p>
+	</div>
+</div>
+<footer>
+	<div class="footer" id="contact_info">
+		<h6>267-270-6376</h6>
+		<h6>kexin.han@drexel.edu</h6>
+	</div>
+	<div class="footer" id="social_media">
+        <h6>GitHub @Kathyhkx</h6>
+        <h6>LinkedIn @kathykexinhan</h6>
+        <h6>Wordpress @kathyhkx.wordpress.com</h6>
+	</div>
+</footer>
 </body>
 </html>
