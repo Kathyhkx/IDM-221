@@ -21,6 +21,20 @@ h1 {
 	color:#586F6F;
 }
 
+h2 {
+	padding-bottom: 5px;
+	font-size: 24px;
+	color:#06367C;
+	font-family: Monaco;
+}
+
+p {
+	padding-bottom: 5px;
+	font-size: 19px;
+	color:#305684;
+	font-family: Monaco;
+}
+
 nav {
 	text-align: center;
 	margin-top: 10px;
@@ -56,7 +70,40 @@ nav ul li a.active {
 	text-align: center;
 	margin-top: 15px;
 }
-.footer {
-  padding-bottom: 2.5rem;
+footer {
+  padding: 0;
   text-align: center;
+  background-color: #000404;
+}
+.footer h6 {
+	color: #EDFC00;
+	font-size: 11px;
+	font-family: sans-serif;
+	padding: 0;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+ }
+
+input, textarea {
+	 font-size: 16px;
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+}
+
+.contact {
+	text-align: center;
+}
+.right { margin-right: 2%}
+
+.left {
+     margin-right: 2%; 
 }
