@@ -1,9 +1,31 @@
+@font-face {
+	font-family: 'Caviar-Dreams';
+	src: url('../Project/font/CaviarDreams.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GrandHotel-Regular';
+	src: url('../Project/font/GrandHotel-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KaushanScript-Regular';
+	src: url('../Project/font/KaushanScript-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body{
 	background-color: #D9F0E9;
 	padding: 1em 1em 1em;
 }
 header{
 	font-size: 16px;
+	font-family: 'Caviar-Dreams';
 	height:165px;
 	background-color:#D9F0E9 ;
 	position: relative;
@@ -25,7 +47,7 @@ h2 {
 	padding-bottom: 5px;
 	font-size: 24px;
 	color:#06367C;
-	font-family: Monaco;
+	font-family: 'KaushanScript-Regular';
 }
 
 p {
@@ -37,7 +59,8 @@ p {
 
 nav {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
+	font-family: 'Caviar-Dreams';
 }
 nav ul{
 	list-style: none;
@@ -66,6 +89,59 @@ nav ul li a.active {
   color: #F7F8F8;
 }
 
+.project h4{
+	font-size: 26px;
+	font-family: 'GrandHotel-Regular';
+	color: #2F2E4F;
+}
+
+.project .row {
+  overflow: auto;
+}
+
+.project .row .column {
+  float: left;
+  width: 50%;
+  width: calc(100%/2);
+}
+
+.skill-bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 0.5em;
+}
+
+.skill-bar {
+        display: block;
+        border-radius: 4px;
+        height: 25px;
+        background-color: #d7edfa
+}
+
+.level1 { width: 50%; background-color: #3AA69C}
+.level2 { width: 70%; background-color: #3AA69C}
+.level3 { width: 60%; background-color: #3AA69C}
+.level4 { width: 80%; background-color: #3AA69C}
+.level5 { width: 85%; background-color: #3AA69C}
+
+.skill-name {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: #333; 
+        font-weight: 600;
+}
+
+.skill-percent {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: #999;
+}
+
+
 .introduction{
 	text-align: center;
 	margin-top: 15px;
@@ -92,7 +168,7 @@ input, textarea {
 	 font-size: 16px;
      border:0; outline:0;
      padding: 1em;
-     @include border-radius(8px);
+     border-radius: 8px;
      display: block;
      width: 100%;
      margin-top: 1em;
