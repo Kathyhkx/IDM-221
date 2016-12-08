@@ -24,6 +24,7 @@ body{
 	padding: 1em 1em 1em;
 }
 header{
+	position: relative;
 	font-size: 16px;
 	font-family: 'Caviar-Dreams';
 	height:165px;
@@ -46,14 +47,41 @@ h1 {
 h2 {
 	padding-bottom: 5px;
 	font-size: 24px;
-	color:#06367C;
+	color:#007861;
 	font-family: 'KaushanScript-Regular';
 }
 
+h4 {
+	padding-left: 3%;
+	padding-right:3%;
+	font-size: 16px;
+	color:#537C6D;
+	font-family: Monaco;
+}
+
+h5 {
+	padding-left: 3%;
+	padding-right:3%;
+	font-size: 14px;
+	color:#537C6D;
+	font-family: Monaco;
+}
+
 p {
+	padding-left: 3%;
+	padding-right:3%;
+	padding-top:5px;
 	padding-bottom: 5px;
-	font-size: 19px;
-	color:#305684;
+	font-size: 14px;
+	color:#586F6F;
+	font-family: Monaco;
+}
+
+.about_content .experience li{
+	padding-left: 3%;
+	padding-right:3%;
+	font-size: 14px;
+	color:#586F6F;
 	font-family: Monaco;
 }
 
@@ -100,9 +128,29 @@ nav ul li a.active {
 }
 
 .project .row .column {
-  float: left;
-  width: 50%;
-  width: calc(100%/2);
+	margin: 1.5%;
+  	float: left;
+  	width: calc(90%/2);
+  	border: 4px;
+  	border-style: dotted;
+  	border-color: #B0E4F2;
+  	text-align: center;
+}
+
+.project-content{
+	margin: 1.5%;
+  	width: 97%;
+  	border: 4px;
+  	border-style: solid;
+  	border-color: #B0E4F2;
+  	text-align: center;
+}
+
+.project-content p{
+	margin: 50px;
+	text-align: center;
+	float: center;
+	width: 80%;
 }
 
 .skill-bar-container {
@@ -111,6 +159,7 @@ nav ul li a.active {
     border-radius: 4px;
     background-color: whitesmoke;
     margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .skill-bar {
@@ -118,6 +167,14 @@ nav ul li a.active {
         border-radius: 4px;
         height: 25px;
         background-color: #d7edfa
+}
+
+.skills  {
+	text-align: left;
+	margin-top: 15px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom: 15px;
 }
 
 .level1 { width: 50%; background-color: #3AA69C}
@@ -145,12 +202,42 @@ nav ul li a.active {
 .introduction{
 	text-align: center;
 	margin-top: 15px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom: 15px;
+	border: 4px;
+	border-style: solid;
+	border-color: #B0E4F2;
 }
+
+.about_content .intro_basic{
+	text-align: left;
+	margin-top: 15px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom: 15px;
+	border: 4px;
+	border-style: solid;
+	border-color: #B0E4F2;
+}
+
+.about_content .experience{
+	text-align: left;
+	margin-top: 15px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom: 15px;
+	border: 4px;
+	border-style: solid;
+	border-color: #B0E4F2;
+}
+
 footer {
   padding: 0;
-  text-align: center;
-  background-color: #000404;
+  text-align: left;
+  background-color: #8B937A;
 }
+
 .footer h6 {
 	color: #EDFC00;
 	font-size: 11px;
@@ -173,6 +260,28 @@ input, textarea {
      width: 100%;
      margin-top: 1em;
      font-family: 'Merriweather', sans-serif;
+}
+
+.footer .row{
+	overflow: auto;
+	padding: 3px;
+}
+
+.footer .row .column{
+	float: left;
+	padding: 5px;
+	width: 25%;
+}
+
+.footer .row .column img{
+	vertical-align:middle;
+}
+
+span{
+	color: #EAFFF6;
+	font-size: 1em;
+	font-family: sans-serif;
+	padding: 3px;
 }
 
 .contact {

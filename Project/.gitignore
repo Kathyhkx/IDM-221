@@ -1,0 +1,12 @@
+#Media Files#
+*.jpg
+*.png
+*.mp4
+*.svg
+
+#Fonts#
+*.ttf
+*.otf
+
+#Packages#
+*.zip
